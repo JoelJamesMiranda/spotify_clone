@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="70px" height="70px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Green circular background -->
+  <circle cx="12" cy="12" r="11" fill="black"/>
+
+  <!-- Play icon -->
+  <path 
+    fill="white" 
+    d="M9,6 L18,12 L9,18 Z"
+  />
+
+</svg>

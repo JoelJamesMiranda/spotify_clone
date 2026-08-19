@@ -1,0 +1,44 @@
+.border{
+    border: 2px solid black;
+}
+
+.flex{
+    display: flex;
+}
+.bg-black{
+    background-color: black;
+}
+.white{
+    color: white;
+}
+.justify{
+    justify-content: center;
+}
+.align{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-spotify{
+    background-color: #1f1f1f;
+}
+.color-spotify{
+    color : #b3b3b3;
+}
+.rounded{
+    border-radius: 10px;
+}
+.bg-darkgrey{
+    background-color: #121212;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+.button{
+    border: 0px solid white;
+}

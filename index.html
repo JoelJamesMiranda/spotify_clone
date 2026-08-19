@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Spotify – Web Player</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+        <audio id="audio" src=""></audio>
+        <div class="left white ">
+            <div class="topleft  bg-darkgrey rounded ">
+                <div><img src="svg/logo.svg" alt="logo" class="logo invert"></div>
+                <li>
+                    <ul style="font-weight: 700;"><img src="svg/home.svg" alt="home" class="home invert">Home</ul>
+                    <ul class="bg-darkgrey"><img src="svg/searchicon.svg" alt="search" class="invert"
+                            style="width: 20px;"><input type="text" class="search bg-darkgrey" placeholder="Search">
+                    </ul>
+                </li>
+            </div>
+
+            <div class="leftbottom bg-darkgrey rounded ">
+
+                <div class="library relative">
+                    <div class="line1 flex">
+                        <div class="align">Your library</div><img src="svg/createicon.svg" alt="create icon"
+                            class="invert align">
+                    </div>
+                    <div class="box1 rounded bg-spotify white">
+                        <div style="font-size: 16px; font-weight: 500;">Create your first playlist</div>
+                        <div style="font-size: 14px; font-weight: 200;"> It's easy we'll help you</div>
+                        <button>Create playlist</button>
+                    </div>
+                    <div class="box1 rounded bg-spotify white">
+                        <div style="font-size: 16px; font-weight: 500;">Let's find out some podcast to follow</div>
+                        <div style="font-size: 14px; font-weight: 200;">we'll keep you updated on new episodes</div>
+                        <button>Browse podcasts</button>
+                    </div>
+                    <footer class="bg-darkgrey bottom">
+                        <div style="color: #b3b3b3;">legal Safety&PrivacyCenter PrivacyPolicy Cookies AboutAds
+                            Accessiblity
+                        </div>
+                        <div style="padding: 10px; padding-left: 0px;">Cookies</div>
+                        <button class="invert align"><img src="svg/language.svg" alt="Language Icon"> English</button>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <nav class="flex">
+                <img src="svg/leftArrow.svg" alt="leftIcon">
+                <div class="rightnav">
+                    <button class="but1 bg-darkgrey button">Sign in</button>
+                    <button class="but2 button">Log in</button>
+                </div>
+
+            </nav>
+            <div class="playlistcontainer">
+                <div class=" playlistcontainer1 white flex" style="justify-content: space-between;">
+                    <h3>Trending Songs</h3>
+                    <button class="color-spotify but3 button ShowAll">show all</button>
+                </div>
+                <div class="playlistcontainer2"> </div>
+                <div class="playlistcontainer3">
+                    <div class="playleft white flex">
+                        <div class="play1">
+                            <h3>company</h3>
+                            <a href="">About</a>
+                            <a href="">Jobs</a>
+                            <a href="">For the records</a>
+                        </div>
+                        <div class="play2">
+                            <h3>communities</h3>
+                            <a href="">For Artists</a>
+                            <a href="">Developers</a>
+                            <a href="">advertising</a>
+                            <a href="">inventors</a>
+                            <a href="">ventors</a>
+                        </div>
+                        <div class="play3">
+                            <h3>UseFull Links</h3>
+                            <a href="">Support</a>
+                            <a href="">Free Mobile Apps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomaudio">
+
+                <div class="AudioControl"></div>
+
+                <div class="playbar flex">
+                    <img src="svg/leftArrow copy.svg" class="musicplayer back">
+                    <img src="svg/play copy.svg" class="musicplayer" id="#play">
+                    <img src="svg/forward.svg" class="musicplayer next">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
